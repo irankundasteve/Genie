@@ -1,0 +1,11 @@
+{
+  "name": "genie",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.js",
+    "test": "NODE_ENV=test node --test server/tests/newsletter.test.js",
+    "lint": "node --check server/index.js && node --check public/app.js"
+  }
+}
